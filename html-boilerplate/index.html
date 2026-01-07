@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
         <meta charset="UTF-8">
         <title>Not My First Webpage</title>
+        <a href="#anchor">Scroll To Anchor</a>
     </head>
     <body>
         <!-- Comment with ctrl + / -->
@@ -14,5 +20,28 @@
         <p>Plain old paragraph, with <strong>important text</strong> that we want to <em>emphasize</em></p>
         <h3>Basically now a sub-heading</h3>
         <p>Half broken paragraph.<br>Creates a new line similar to shift + enter</p>
+        <h4>Lists (even less important)</h4>
+        <p>Here is an unordered list of numbers, in order:</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        <p>And here is an ordered list of letters, unordered:</p>
+        <ol>
+            <li>A</li>
+            <li>E</li>
+            <li>C</li>
+            <li>D</li>
+            <li>B</li>
+        </ol>
+        <h6>Link Section</h6>
+        <!-- rel="noopener" is used to prevent the new page from being able to manipulate the current page,
+         good security measure for linking external sites. -->
+         <!-- "a" elements are Anchors. Can use an anchor to link to a certain part of the page -->
+        <p>And <a href="mtfdev.com" target="_blank" rel="noopener"></a>here</a> is a link to a better site!</p>
+        <h7 id="anchor">Bottom Anchor</h7>
     </body>
 </html>
