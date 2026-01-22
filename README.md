@@ -17,10 +17,11 @@ mv abc.txt .. # moves abc.txt back into parent folder
 cd ~ # navigates back to base directory
 
 22/01/26
-Been working through CSS excercises slowly.
+Working through CSS excercises slowly.
 Inspector in dev tools shows padding/margin/border under the box model.
 display:block; is default for most elements in browser. Things like div, parapraphs etc.
-display:inline; for anchors, span etc. but can also be used to group containers without moving to the next line. E.g. menu bar.
+display:inline; for anchors, span etc. but can also be used to group containers without moving to the next line
+display:inline-block; captures the best of both worlds, will appear on the same line as other inline or inline-block elements but functions as a block for width/height, padding/margins etc.
 content > padding > border > margin
-* wildcard can be used to apply style to every matching property, or every element if used on its own
+"*" wildcard can be used to apply style to every matching property, or every element if used on its own
 margin-left:auto; will move content to the rightmost edge, reverse for right,top,bottom
