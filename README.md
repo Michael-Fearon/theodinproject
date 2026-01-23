@@ -47,7 +47,9 @@ flex-grow: 2 would 'grow' double the size of flex-grow: 1
 flex-shrink responsible for items sizing down as container shrinks.
 default shrink factor is flex-shrink: 1, which means all items will shrink evenly. To have an item retain its size and to NOT shrink then you can specify flex-shrink: 0;
 
-flex-grow/flex-shrink items do not respect width values. If the parent is big enough they grow to fill it. Likewise, when the parent is too small, the default behavior is for them to shrink to fit.
+flex-grow/flex-shrink items do not respect size values. If the parent is big enough they grow to fill it. Likewise, when the parent is too small, the default behavior is for them to shrink to fit.
 
 flex-basis sets the initial size of a flex item. Any growing/shrinking starts from the baseline size. flex-basis 0 ignores width. flex-basis: auto checks for a width declaration
 flex: 1 => flex: 1 1 0 => (flex-grow: 1, flex-shrink: 1, flex-basis:0) | flex: auto => flex: 1 1 auto => (flex-grow: 1, flex-shrink: 1, flex-basis:auto)
+
+flex-direction: column/row
