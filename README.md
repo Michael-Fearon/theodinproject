@@ -7,6 +7,7 @@ Practicing navigating and editing files with the terminal
 
 07/01/26 Running through HTML basics. Learnt about page anchors and link hijacking security! Everything else was a repeat, but good to go back to basics.
 
+## LINUX TERMINAL ##
 Some Linux terminal commands:
 touch abc.txt # makes a file
 codium abc.txt # opens a file in VS
@@ -16,6 +17,7 @@ mv abc.txt abc # moves abc.txt into abc
 mv abc.txt .. # moves abc.txt back into parent folder
 cd ~ # navigates back to base directory
 
+## CSS BASICS ##
 22/01/26
 Working through CSS excercises slowly.
 Inspector in dev tools shows padding/margin/border under the box model.
@@ -25,3 +27,12 @@ display:inline-block; captures the best of both worlds, will appear on the same 
 content > padding > border > margin
 ["*"] wildcard can be used to apply style to every matching property, or every element if used on its own
 margin-left:auto; will move content to the rightmost edge, reverse for right,top,bottom
+
+## FLEX ##
+23/01/26
+A flex container is any element that has display: flex on it. A flex item is any element that lives directly inside of a flex container.
+
+Any element can be both a flex container and a flex item
+
+flex:1;
+Lets all the flexible items be the same length, regardless of its content
