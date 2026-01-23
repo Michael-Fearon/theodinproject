@@ -39,3 +39,7 @@ Any element can be both a flex container and a flex item
 
 flex: 1 equates to: flex-grow: 1, flex-shrink: 1, flex-basis: 0.
 Lets all the flexible items be the same length, regardless of its content
+
+flex-grow responsible for ratio splits.
+flex: 2 1 0% // flex: 1 1 0%;
+flex-grow: 2 would be double the size of flex-grow: 3
