@@ -37,6 +37,8 @@ A flex container is any element that has display: flex on it. A flex item is any
 
 Any element can be both a flex container and a flex item
 
+display: flex; sets the parent container to display children as flex
+
 flex: 1 equates to: flex-grow: 1, flex-shrink: 1, flex-basis: 0.
 Lets all the flexible items be the same length, regardless of its content
 
