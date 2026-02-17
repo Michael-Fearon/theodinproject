@@ -55,3 +55,7 @@ flex-basis sets the initial size of a flex item. Any growing/shrinking starts fr
 flex: 1 => flex: 1 1 0 => (flex-grow: 1, flex-shrink: 1, flex-basis:0) | flex: auto => flex: 1 1 auto => (flex-grow: 1, flex-shrink: 1, flex-basis:auto)
 
 flex-direction: column/row
+
+17/02/26
+Margins are super important for flex. Use margin: auto to center align items.
+margin-left / margin-right : auto, to snap things to the left or right
