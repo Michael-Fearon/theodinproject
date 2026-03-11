@@ -59,3 +59,8 @@ flex-direction: column/row
 17/02/26
 Margins are super important for flex. Use margin: auto to center align items.
 margin-left / margin-right : auto, to snap things to the left or right
+
+11/03/26
+Parent needs display:flex, child does not.
+Gap for creating uniform spacing, instead of padding.
+justify-content for center aligning flex elements
