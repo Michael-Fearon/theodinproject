@@ -62,5 +62,5 @@ margin-left / margin-right : auto, to snap things to the left or right
 
 11/03/26
 Parent needs display:flex, child does not.
-Gap for creating uniform spacing, instead of padding.
+Gap for creating uniform spacing, instead of padding, only adds spacing between rows/columns/flex items.
 justify-content for center aligning flex elements
